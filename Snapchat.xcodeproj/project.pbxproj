@@ -15,6 +15,8 @@
 		91470D431E77AD390090AA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91470D421E77AD390090AA00 /* Assets.xcassets */; };
 		91470D461E77AD390090AA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91470D441E77AD390090AA00 /* LaunchScreen.storyboard */; };
 		91470D4E1E77AED70090AA00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91470D4D1E77AED70090AA00 /* GoogleService-Info.plist */; };
+		91C4F9A91E78016A00E13DA8 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4F9A81E78016A00E13DA8 /* SnapsViewController.swift */; };
+		91C4F9AB1E78036000E13DA8 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4F9AA1E78036000E13DA8 /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		91470D451E77AD390090AA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91470D471E77AD390090AA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91470D4D1E77AED70090AA00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91C4F9A81E78016A00E13DA8 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		91C4F9AA1E78036000E13DA8 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		BD156B7C28BE5F7B2F3F58ED /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,7 +88,9 @@
 			children = (
 				91470D381E77AD390090AA00 /* AppDelegate.swift */,
 				91470D3A1E77AD390090AA00 /* SignInViewController.swift */,
+				91C4F9A81E78016A00E13DA8 /* SnapsViewController.swift */,
 				91470D3C1E77AD390090AA00 /* Main.storyboard */,
+				91C4F9AA1E78036000E13DA8 /* PictureViewController.swift */,
 				91470D421E77AD390090AA00 /* Assets.xcassets */,
 				91470D441E77AD390090AA00 /* LaunchScreen.storyboard */,
 				91470D471E77AD390090AA00 /* Info.plist */,
@@ -219,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C4F9A91E78016A00E13DA8 /* SnapsViewController.swift in Sources */,
 				91470D3B1E77AD390090AA00 /* SignInViewController.swift in Sources */,
 				91470D411E77AD390090AA00 /* Snapchat.xcdatamodeld in Sources */,
 				91470D391E77AD390090AA00 /* AppDelegate.swift in Sources */,
+				91C4F9AB1E78036000E13DA8 /* PictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
